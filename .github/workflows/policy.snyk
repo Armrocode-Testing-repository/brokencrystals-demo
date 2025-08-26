@@ -1,0 +1,11 @@
+{
+  "version": "v1",
+  "ignore": {
+    "npm:lodash:20180130": {
+      "reason": "This vulnerability is not relevant to our use case and will not be fixed."
+    },
+    "npm:express:20180425": {
+      "reason": "We are using a patched version, but not fixing this due to compatibility issues."
+    }
+  }
+}
